@@ -12,5 +12,5 @@ class Square:
     This is a class to calculate the square
     """
 
-    def __init__(self, size)
-    self.__size = size
+    def __init__(self, size):
+        self.__size = size
