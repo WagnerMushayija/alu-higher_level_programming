@@ -30,4 +30,4 @@ class Square:
         calculating the are
         """
 
-        return value * value
+        return self.__size ** self.__size
