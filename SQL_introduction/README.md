@@ -1,1 +1,1 @@
-Mysql introduction projects
+SQL Introduction Projects
