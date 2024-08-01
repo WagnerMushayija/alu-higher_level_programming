@@ -1,10 +1,9 @@
 #!/usr/bin/python3
-import urllib.request
 """
     Module 0-hbtn_status.py
 """
 
-
+import urllib.request
 url = 'https://intranet.hbtn.io/status'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
