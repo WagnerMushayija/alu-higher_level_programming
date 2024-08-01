@@ -3,7 +3,7 @@
     Module 0-hbtn_status.py
 """
 
-import urllib.request
+"""import urllib.request
 url = 'https://intranet.hbtn.io/status'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
@@ -18,3 +18,4 @@ with urllib.request.urlopen(req) as response:
     print("\t- type:", type(content))
     print("\t- content:", content)
     print("\t- utf8 content:", content.decode("utf-8"))
+"""
