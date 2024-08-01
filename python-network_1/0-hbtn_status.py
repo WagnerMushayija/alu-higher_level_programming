@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 import urllib.request
 """
-    Pthon script that fetches https://alu-intranet.hbtn.io/status using urlib
+    Module 0-hbtn_status.py
 """
+
+
 url = 'https://intranet.hbtn.io/status'
 headers = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'
