@@ -1,1 +1,1 @@
-Python - Network #0 - Projects
+Python Network 0
