@@ -12,8 +12,9 @@ if (count <= 2) {
     let index = 0;
     argv.forEach((arg) => {
         if (index >= 2) {
-            console.log(arg);
+            console.log(arg[2]);
         }
         index++;
     });
 }
+
