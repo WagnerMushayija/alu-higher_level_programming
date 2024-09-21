@@ -9,7 +9,11 @@ argv.forEach(() => {
 if (count <= 2) {
     console.log('No argument');
 } else {
-    argv.slice(2).forEach((arg) => {
-        console.log(arg);
+    let index = 0;
+    argv.forEach((arg) => {
+        if (index >= 2) {
+            console.log(arg);
+        }
+        index++;
     });
 }
