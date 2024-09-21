@@ -1,9 +1,15 @@
 #!/usr/bin/node
 const { argv } = require('node:process');
-if (argv[2] !== undefined) {
+
+let count = 0;
+argv.forEach(() => {
+    count++;
+});
+
+if (count <= 2) {
     console.log('No argument');
 } else {
-    argv.forEach((arg) => {
+    argv.slice(2).forEach((arg) => {
         console.log(arg);
     });
 }
