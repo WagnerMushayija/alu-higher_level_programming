@@ -6,4 +6,3 @@ if (argv.length <= 2) {
 } else {
   console.log(argv[2]);
 }
-
