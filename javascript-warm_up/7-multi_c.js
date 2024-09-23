@@ -7,6 +7,6 @@ if (argCount === undefined || (isNaN(argCount))) {
   console.log('Missing number of occurrences');
 } else {
   for (let i = 0; i < argCount; i++) {
-    console.log(`C is fun`);
-    }
+    console.log('C is fun');
+  }
 }
