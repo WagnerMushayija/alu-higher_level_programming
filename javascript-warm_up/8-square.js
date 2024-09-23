@@ -4,7 +4,7 @@ const { argv } = require('node:process');
 const argCount = parseInt(argv[2]);
 
 if (isNaN(argCount)) {
-  console.log('Missing sizes');
+  console.log('Missing size');
 } else {
   for (let i = 0; i < argCount; i++) {
     let row = '';
