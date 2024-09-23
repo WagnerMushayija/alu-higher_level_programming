@@ -6,6 +6,6 @@ if (argCount === 0) {
   console.log('undefined is undefined');
 } else if (argCount === 1) {
   console.log(`${argv[2]} is undefined`);
-}else {
+} else {
   console.log(`${argv[2]} is ${argv[3]}`);
 }
