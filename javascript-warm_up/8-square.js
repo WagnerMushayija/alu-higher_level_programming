@@ -4,13 +4,13 @@ const { argv } = require('node:process');
 const argCount = parseInt(argv[2]);
 
 if (isNaN(argCount)) {
-    console.log('Missing sizes');
+  console.log('Missing sizes');
 } else {
-    for (let i = 0; i < argCount; i++) {
-        let row = '';
-        for (let j = 0; j < argCount; j++) {
-            row += '#';
-        }
-        console.log(row);
+  for (let i = 0; i < argCount; i++) {
+    let row = '';
+    for (let j = 0; j < argCount; j++) {
+      row += '#';
+    }
+    console.log(row);
     }
 }
